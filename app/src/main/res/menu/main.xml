@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/main_search_button"
+        android:title="@string/search_for_product" >
+
+        <menu>
+            <item android:id="@+id/searchByCamera" android:title="@string/by_camera" />
+            <item android:id="@+id/searchByText" android:title="@string/by_text" />
+            <item android:id="@+id/searchByVoice" android:title="@string/by_voice" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/order_history"
+        android:title="@string/order_history" />
+
+    <item
+        android:id="@+id/main_logout_button"
+        android:title="@string/log_out" />
+
+
+
+</menu>

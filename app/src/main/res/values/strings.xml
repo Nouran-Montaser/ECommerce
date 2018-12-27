@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ECommerce</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="job_title">Job Title</string>
+    <string name="gender">Gender</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="edit_quantity">Edit Quantity</string>
+    <string name="next">Next</string>
+    <string name="search_for_product">Search for Product</string>
+    <string name="by_camera">By Camera</string>
+    <string name="by_text">By Text</string>
+    <string name="by_voice">By Voice</string>
+    <string name="search">Search</string>
+    <string name="tap_on_mic_to_start">Tap on mic to start</string>
+    <string name="capture_barcode_to_start">Capture BarCode to start</string>
+    <string name="show_order_total">Show order Total</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+    <string name="order">Order</string>
+    <string name="order_history">Order History</string>
+</resources>

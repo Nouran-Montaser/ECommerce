@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/email_password_editbox"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColorHighlight="#ffffff" />
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/voice_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/tap_on_mic_to_start"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHighlight="#ffffff" />
+        <!--<EditText-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginStart="10dp"-->
+            <!--android:layout_marginEnd="10dp"-->
+            <!--android:id="@+id/camera_edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="6dp"-->
+            <!--android:background="@drawable/email_password_editbox"-->
+            <!--android:drawableLeft="@drawable/ic_camera_alt_black_24dp"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:hint="@string/search"-->
+            <!--android:inputType="text"-->
+            <!--android:padding="15dp"-->
+            <!--android:textColorHighlight="#ffffff" />-->
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/camera_barCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/capture_barcode_to_start"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHighlight="#ffffff" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/Search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/signup_btn"
+        android:textColor="#ffffff"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="@string/search"
+        android:layout_gravity="right"/>
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_keyboard_voice_black_24dp" />
+        <ImageButton
+            android:id="@+id/btnCapture"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_camera_alt_black_24dp" />
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Search_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

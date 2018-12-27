@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a7e9a</color>
+
+    <color name="colorPrimaryDark">#066e8a</color>
+
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="button">#cfd8dc</color>
+
+    <color name="Acc_Btn">#DD2C00</color>
+
+    <color name="SColor">#066e8a</color>
+
+    <color name="barColor">#0097A7</color>
+
+</resources>
